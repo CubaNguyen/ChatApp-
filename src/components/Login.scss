@@ -1,0 +1,58 @@
+.loginContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .logoLogin {
+        margin: 50px 0;
+        height: 80px;
+        width: 80px;
+        background-image: url("../assets/images/logo-Login.svg");
+    }
+    .text {
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 25px;
+    }
+    .form {
+        input{
+            height: 43px;
+            width: 320px;
+            border-radius: 4px;
+            outline: none;
+            border: 1px solid #cccccc;
+            padding: 0 10px;
+        }
+        .user {
+
+            margin-top: 100px;
+           
+        }
+        .passwordContainer{
+            position: relative;
+
+             .password {
+            margin:  15px 0 ;
+        }
+        .icon{
+            position: absolute;
+            top: 50%;
+            right: 10px; /* Điều chỉnh vị trí của icon theo nhu cầu */
+            transform: translateY(-50%);
+            cursor: pointer;
+        }
+        }
+       
+    }
+    .btnLogin{
+        height: 49px;
+    border-radius: 21px;
+    padding: 0 28px;
+    outline: none;
+    background-color: #0a7cff;
+    border: none;
+    color: white;
+    font-size: 16px;
+
+    }
+}

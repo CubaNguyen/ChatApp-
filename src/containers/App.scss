@@ -1,0 +1,19 @@
+.mainContainer {
+    overflow: hidden;
+    height: 100vh;
+    display: flex;
+    .frameLeftIcon {
+      
+    }
+    .frameLeftChat {
+        height: 100vh; 
+        width: 361px;
+        border-right: 1px solid #e5e5e5;
+    }
+    .frameMiddleAndRight{
+         display: flex;
+         width: 100%;
+         height: 100vh;
+
+    }
+}

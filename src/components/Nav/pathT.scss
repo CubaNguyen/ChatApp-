@@ -1,0 +1,18 @@
+.containerPathT{
+    display: flex;
+    width: 100%;
+    .frameMiddle{
+// width: 100%;
+height: 100vh;
+border-right: 1px solid #e5e5e5;
+width: calc(65% - 1px);
+&.Active {
+    width: calc(100% - 1px) !important
+}
+    }
+    .frameRightPathT{
+// width: 100%;
+width: calc(35% - 1px);
+flex-shrink: 1
+    }
+}
