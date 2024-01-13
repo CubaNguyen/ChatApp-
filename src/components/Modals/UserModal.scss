@@ -1,0 +1,64 @@
+.modal {
+    position: fixed;
+    z-index: 1;
+    left: 19%;
+    top: 52%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 8px;
+
+    width: 344px;
+    height: 542px;
+    border-radius: 10px;
+    padding-bottom: 30px;
+    border: 1px solid #ececec;
+    outline: none !important;
+    .modal-dialog {
+        .containFunct {
+            height: 50px;
+            margin-bottom: 12px;
+            border-bottom: 1px solid #e7e7e9;
+
+            &.TwoFunct {
+                height: 100px;
+            }
+            &.ThreeFunct {
+                height: 142px;
+            }
+            .modal-dialog-func {
+                border-radius: 10px;
+                height: 45px;
+                display: flex;
+                &:hover {
+                    background-color: #f5f5f5;
+                    .icon {
+                        background-color: rgb(240, 233, 233); /* Thay đổi màu sắc ở đây */
+                    }
+                }
+                .icon {
+                    height: 8px;
+                    width: 8px;
+                    padding: 12px;
+                    border-radius: 50%;
+                    display: flex;
+                    overflow: hidden;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: #f5f5f5;
+                    margin-top: 5px;
+                    margin-left: 10px;
+
+                    .iconContain {
+                        width: 20px;
+                        &.Active {
+                            color: black;
+                        }
+                    }
+                }
+                .text {
+                    padding: 12px;
+                }
+            }
+        }
+    }
+}

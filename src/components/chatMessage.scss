@@ -1,0 +1,65 @@
+.chatContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    // background-color: antiquewhite;
+    .chatLeft {
+
+       
+    }
+
+    .chatRight {
+        align-self: flex-end;
+        display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+        .chated-content {
+            margin: -1px 12px;
+                align-self: flex-end;
+
+            .chated {
+                display: inline-block;
+                word-wrap: break-word; /* Cho phép từ ngắn tự xuống dòng */
+                padding: 7px;
+                max-width: 511px;
+                background-color: #f0f0f0;
+                border: none;
+                border-radius: 10px;
+                font-size: 18px;
+                margin: 2.5px 0;
+
+            }
+        }
+    }
+    .chatLeft {
+        display: flex;
+            padding: 0 12px;
+            .avatarContain {
+                position: relative;
+                width: 41px;
+                .avatar {
+                    border: 1px solid blue;
+                    height: 29px;
+                    width: 29px;
+                    border-radius: 50%;
+                    position: absolute;
+                    bottom: 0;
+                }
+            }
+        .mess {   
+            .chated-content {
+                .chated {
+                    word-wrap: break-word; /* Cho phép từ ngắn tự xuống dòng */
+                    padding: 7px;
+                    max-width: 511px;
+                    background-color: #f0f0f0;
+                    border: none;
+                    border-radius: 10px;
+                    font-size: 18px;
+                    margin: 2.5px 0;
+    display: inline-block   ;
+                }
+            }
+        }
+    }
+}

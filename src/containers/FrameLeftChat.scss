@@ -1,0 +1,110 @@
+
+.frameLeftChatContainer {
+    display: block;
+    height: 100vh;
+    width: 361px;
+    display: inline-block;
+    .top {
+      display: flex;
+      height: 95px;
+      flex-direction: column;
+      .upperContain {
+        display: flex;
+        justify-content: space-between;
+        height: 56px;
+
+        .chat {
+          width: 48%; /* Điều chỉnh kích thước tùy theo mong muốn */
+          box-sizing: border-box;
+          font-size: 25px;
+          font-weight: 600;
+          padding: 0 23px;
+    padding-top: 15px;
+        }
+        .pen {
+          width: 48%;
+          box-sizing: border-box;
+          padding-left: 113px;
+          padding-top: 8px;
+          .bg {
+            
+            background: #f5f5f5;
+            width: 39px;
+    height: 37px;
+    border-radius: 28px;
+    padding-bottom: 5px;
+    padding-right: 3px;
+
+          }
+
+          .icon {
+            // width: 19px;
+            width: 44px;
+    padding-top: 12px;
+          }
+        }
+      }
+
+      .search {
+        /* padding-top: 58px; */
+        width: 100%;
+        flex: 1; /* Sử dụng flex để chiếm phần còn lại của không gian */
+        margin-top: 10px;
+        box-sizing: border-box;
+        .contain {
+          display: flex;
+
+          .containInput {
+            padding-left: 10px;
+            display: flex;
+
+            .searchGlass {
+              position: absolute;
+              padding: 10px;
+              cursor: pointer;
+              .icon {
+                width: 20px;
+              }
+            }
+            .searchInput {
+              width: 290px;
+              border-radius: 20px;
+              outline: none;
+              border: none;
+              background: #f5f5f5;
+              height: 36px;
+              padding-left: 42px;
+            }
+          }
+        }
+      }
+    }
+
+    .middle {
+      overflow-y: scroll;
+      height: 556px;
+      margin-top: 15px;
+      border: 1px solid;
+      .chat {
+        border: 1px solid;
+        height: 60px;
+        margin: 0 10px;
+        border-radius: 10px;
+        display: flex;
+        .avatar {
+          height: 45px;
+          border: 1px solid;
+          width: 47px;
+          border-radius: 38px;
+          margin: 5px 0;
+        }
+        .someInfor {
+          height: 59px;
+          border: 1px solid;
+          width: 267px;
+        }
+      }
+    }
+    .bottom { 
+    }
+  }
